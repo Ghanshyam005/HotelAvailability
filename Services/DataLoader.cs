@@ -26,7 +26,7 @@ namespace HotelAvailability.Services
             var hotels = JsonSerializer.Deserialize<List<Hotel>>(hotelsJson, options) ?? new();
             var bookings = JsonSerializer.Deserialize<List<Booking>>(bookingsJson, options) ?? new();
 
-            // Validate date parsing early
+            ////Validate date parsing early
             //foreach (var b in bookings)
             //{
             //    _ = b.ArrivalDate;
