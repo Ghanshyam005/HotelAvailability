@@ -115,6 +115,12 @@ namespace HotelAvailability.Helper
                 DateOnly startDate = DateOnly.ParseExact(range[0], "yyyyMMdd");
                 DateOnly endDate = DateOnly.ParseExact(range[1], "yyyyMMdd");
 
+                if (startDate > endDate)
+                {
+                    message = "Invalid date range: start date must be the same as or earlier than end date.";
+                    return false;
+                }
+
                 if (startDate < today || endDate < today)
                 {
                     message = "Invalid input: availability cannot be checked for past dates.";
