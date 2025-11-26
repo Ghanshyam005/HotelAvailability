@@ -10,16 +10,16 @@
   {
     "hotelId": "H1",
     "roomId": "101",
-    "arrival": "20251115",
-    "departure": "20251116",
+    "arrival": "20251127",
+    "departure": "20251128",
     "roomType": "SGL",
     "roomRate": "Standard"
   },
   {
     "hotelId": "H1",
     "roomId": "102",
-    "arrival": "20251115",
-    "departure": "20251116",
+    "arrival": "20251127",
+    "departure": "20251128",
     "roomType": "SGL",
     "roomRate": "Standard"
   }
